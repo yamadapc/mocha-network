@@ -1,0 +1,28 @@
+{
+  "name": "mocha-network",
+  "version": "1.0.0",
+  "description": "A Mocha Reporter which publishes events to the network with Socket.IO or other transports.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yamadapc/mocha-network.git"
+  },
+  "keywords": [
+    "testing",
+    "mocha",
+    "framework"
+  ],
+  "author": "Pedro Tacla Yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadapc/mocha-network/issues"
+  },
+  "homepage": "https://github.com/yamadapc/mocha-network",
+  "dependencies": {
+    "mocha": "^2.0.1",
+    "socket.io": "^1.2.1"
+  }
+}
