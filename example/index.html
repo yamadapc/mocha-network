@@ -11,7 +11,13 @@ socket.on('connect', function() {
   console.log('Connected!');
 });
 
+socket.on('here', addEvent.bind(null, 'here'));
+
 socket.on('start', addEvent.bind(null, 'Start'));
+socket.on('pass', addEvent.bind(null, 'pass'));
+socket.on('fail', addEvent.bind(null, 'fail'));
+socket.on('suite', addEvent.bind(null, 'suite'));
+socket.on('test', addEvent.bind(null, 'test'));
 
 socket.on('disconnect', function() {
   console.log('Disconnected!');
