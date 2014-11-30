@@ -25,6 +25,7 @@
     "mocha": ">=1.8"
   },
   "dependencies": {
+    "circular-json": "^0.1.6",
     "socket.io": "^1.2.1"
   },
   "devDependencies": {
